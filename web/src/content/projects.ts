@@ -19,22 +19,35 @@ export const projects: Project[] = [
   },
   {
     id: "p2",
-    title: "E-commerce Store",
-    slug: "ecommerce-store",
-    shortDescription: "Headless commerce demo with product listings, cart, and checkout.",
-    techStack: ["Next.js", "Stripe", "Prisma"],
-    tags: ["fullstack", "stripe"],
+    title: "Redis Server & Redis Client",
+    slug: "redis-server-client",
+    shortDescription: "Redis Server and Client built in C++.",
+    techStack: ["C++", "Redis", "Redis"],
+    tags: ["CLI", "redis", "c++", "multithreading", "algorithms", "networking", "design patterns"],
     status: "released",
     featured: true,
-    highlights: ["Server Actions", "Optimized images"],
-    repoUrl: "https://github.com/",
+    highlights: ["Server Actions", "multi-threading"],
+    repoUrl: "https://github.com/tarnaldo88/Redis-Server",
     liveUrl: "#",
     images: [
-      { src: "/globe.svg", alt: "Globe icon" }
+      { src: "/RedisTorres.png", alt: "redis serverq icon" }
     ],
   },
   {
     id: "p3",
+    title: "Unix Shell in C",
+    slug: "unix-shell",
+    shortDescription: "An interactive shell that reads a command line, tokenizes it, and dispatches built-in commands",
+    techStack: ["C", "memory management", "algorithms", "networking", "design patterns"],
+    tags: ["C", "Z Shell", "Unix"],
+    status: "released",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/Build-Z-Shell",
+    liveUrl: "#"
+  },
+  ,
+  {
+    id: "p4",
     title: "Chatbot Assistant",
     slug: "chatbot-assistant",
     shortDescription: "Conversational assistant using streaming responses and RAG.",
