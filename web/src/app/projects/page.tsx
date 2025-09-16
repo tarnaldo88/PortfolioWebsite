@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Projects",
-  description: "A curated selection of projects and case studies.",
+  description: "A curated selection of projects.",
 };
 
 function TagLink({ tag, selected }: { tag: string; selected: boolean }) {

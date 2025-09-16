@@ -3,10 +3,10 @@
 import Container from "@/components/Container";
 import { useState } from "react";
 
-export const metadata = {
-  title: "Contact",
-  description: "Get in touch for opportunities or collaboration.",
-};
+// export const metadata = {
+//   title: "Contact",
+//   description: "Get in touch for opportunities or collaboration.",
+// };
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
