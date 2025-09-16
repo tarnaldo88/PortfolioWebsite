@@ -3,18 +3,18 @@ import { Project } from "@/types/project";
 export const projects: Project[] = [
   {
     id: "p1",
-    title: "Portfolio Website",
-    slug: "portfolio-website",
-    shortDescription: "Modern portfolio built with Next.js, TypeScript, and Tailwind.",
-    techStack: ["Next.js", "TypeScript", "TailwindCSS"],
-    tags: ["frontend", "nextjs", "design"],
-    status: "in_progress",
+    title: "Proper Form",
+    slug: "proper-form-fitness",
+    shortDescription: "Fitness, nutrition, and workout tracking app built with React Native, TypeScript, AWS, Firebase, and Proper-Form-API.",
+    techStack: ["ReactNative", "TypeScript", "AWS", "Firebase", "Proper-Form-API"],
+    tags: ["frontend", "reactjs", "full-stack", "aws", "firebase", "api"],
+    status: "released",
     featured: true,
-    highlights: ["App Router", "Dark mode", "SEO metadata"],
+    highlights: ["Android", "Realtime Chat", "Nutrition Tracker", "Workout Tracker", "Progress Tracker"],
     repoUrl: "https://github.com/",
     liveUrl: "#",
     images: [
-      { src: "/next.svg", alt: "Next.js logo" }
+      { src: "/properformLogo.png", alt: "proper form logo" }
     ],
   },
   {
