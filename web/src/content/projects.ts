@@ -21,7 +21,7 @@ export const projects: Project[] = [
     id: "p2",
     title: "Redis Server & Redis Client",
     slug: "redis-server-client",
-    shortDescription: "Redis Server and Client built in C++.",
+    shortDescription: "Redis Server and Client built from scratch in C++.",
     techStack: ["C++", "Redis", "Redis"],
     tags: ["CLI", "redis", "c++", "multithreading", "algorithms", "networking", "design patterns", "sockets"],
     status: "released",
