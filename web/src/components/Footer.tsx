@@ -7,8 +7,8 @@ export default function Footer() {
       <Container className="py-8 text-sm text-muted-foreground flex flex-col sm:flex-row items-center justify-between gap-4">
         <p>&copy; {new Date().getFullYear()} Portfolio. All rights reserved.</p>
         <div className="flex items-center gap-4">
-          <Link href="https://github.com/" className="hover:underline underline-offset-4" target="_blank">GitHub</Link>
-          <Link href="https://www.linkedin.com/" className="hover:underline underline-offset-4" target="_blank">LinkedIn</Link>
+          <Link href="https://github.com/tarnaldo88" className="hover:underline underline-offset-4" target="_blank">GitHub</Link>
+          <Link href="https://www.linkedin.com/in/arnaldo-torres/" className="hover:underline underline-offset-4" target="_blank">LinkedIn</Link>
         </div>
       </Container>
     </footer>
