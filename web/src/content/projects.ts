@@ -14,8 +14,27 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/",
     liveUrl: "#",
     images: [
-      { src: "/properformLogo.png", alt: "proper form logo" }
-    ],
+      { 
+        src: "/properformLogo.png", 
+        alt: "Proper Form App Logo",
+        caption: "App Logo"
+      },
+      {
+        src: "/Pform/userFlow.png",
+        alt: "Proper Form User Flow",
+        caption: "User Experience Diagram"
+      },
+      {
+        src: "/properform-screenshot2.jpg",
+        alt: "Proper Form Nutrition Tracker",
+        caption: "Nutrition Tracking Dashboard"
+      },
+      {
+        src: "/properform-screenshot3.jpg",
+        alt: "Proper Form Chat Feature",
+        caption: "Realtime Chat with Trainers"
+      }
+    ]
   },
   {
     id: "p2",
