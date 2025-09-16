@@ -10,7 +10,7 @@ export const projects: Project[] = [
     tags: ["frontend", "reactjs", "full-stack", "aws", "firebase", "api"],
     status: "released",
     featured: true,
-    highlights: ["Android", "Realtime Chat", "Nutrition Tracker", "Workout Tracker", "Progress Tracker"],
+    highlights: ["Realtime Chat", "Nutrition Tracker", "Workout Tracker", "Progress Tracker"],
     repoUrl: "https://github.com/",
     liveUrl: "#",
     images: [
@@ -49,7 +49,10 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Redis-Server",
     liveUrl: "#",
     images: [
-      { src: "/RedisTorres.png", alt: "redis serverq icon" }
+      { src: "/RedisTorres.png", alt: "redis serverq icon" },
+      { src: "/redis/overview.png", alt: "redis overview", caption: "Redis Server Features & Overview" },
+      { src: "/redis/supcmds.png", alt: "redis commands", caption: "Redis Server Commands that are currently supported. Implementation of additional commands in progress." },
+      { src: "/RedisTorres.png", alt: "redis serverq icon", caption: "Redis Client" },
     ],
   },
   {
