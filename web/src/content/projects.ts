@@ -43,7 +43,10 @@ export const projects: Project[] = [
     status: "released",
     featured: true,
     repoUrl: "https://github.com/tarnaldo88/Build-Z-Shell",
-    liveUrl: "#"
+    liveUrl: "#",
+    images: [
+      { src: "/TorresShell.png", alt: "z shell icon" }
+    ]
   },
   
   {
