@@ -23,7 +23,7 @@ export const projects: Project[] = [
     slug: "redis-server-client",
     shortDescription: "Redis Server and Client built in C++.",
     techStack: ["C++", "Redis", "Redis"],
-    tags: ["CLI", "redis", "c++", "multithreading", "algorithms", "networking", "design patterns"],
+    tags: ["CLI", "redis", "c++", "multithreading", "algorithms", "networking", "design patterns", "sockets"],
     status: "released",
     featured: true,
     highlights: ["Server Actions", "multi-threading"],
@@ -41,22 +41,25 @@ export const projects: Project[] = [
     techStack: ["C", "memory management", "algorithms", "networking", "design patterns"],
     tags: ["C", "Z Shell", "Unix"],
     status: "released",
-    featured: false,
+    featured: true,
     repoUrl: "https://github.com/tarnaldo88/Build-Z-Shell",
     liveUrl: "#"
   },
-  ,
+  
   {
     id: "p4",
-    title: "Chatbot Assistant",
-    slug: "chatbot-assistant",
-    shortDescription: "Conversational assistant using streaming responses and RAG.",
-    techStack: ["Next.js", "OpenAI", "Pinecone"],
-    tags: ["ai", "rAG", "nextjs"],
+    title: "Network Packet Sniffer like WireShark",
+    slug: "network-sniffer",
+    shortDescription: "A lightweight, Windows-focused network packet sniffer with a clean Tkinter GUI. It captures IPv4 traffic using raw sockets and presents a color-coded, filterable view of packets with a details pane for deeper inspection.",
+    techStack: ["python", "networking", "Pinecone"],
+    tags: ["networking", "python", "GUI", "sockets"],
     status: "released",
-    featured: false,
-    repoUrl: "https://github.com/",
-    liveUrl: "#"
+    featured: true,
+    repoUrl: "https://github.com/tarnaldo88/Network-Packet-Sniffer",
+    liveUrl: "#",
+    images: [
+      { src: "/TorresShark.png", alt: "network sniffer icon" }
+    ]
   }
 ];
 
