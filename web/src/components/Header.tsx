@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Container from "@/components/Container";
 import ThemeToggle from "@/components/ThemeToggle";
+import Image from "next/image";
 
 const nav = [
   { href: "/", label: "Home" },
@@ -15,8 +16,9 @@ export default function Header() {
     <header className="sticky top-0 z-30 w-full backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b border-black/10 dark:border-white/10">
       <Container className="flex h-14 items-center justify-between">
         <div className="flex items-center gap-6">
-          <Link href="/" className="font-semibold tracking-tight">
-            <span className="text-lg">Portfolio</span>
+          <Image src="./logoblue.svg" alt="Logo" width={32} height={32} />
+          <Link href="/" className="font-semibold tracking-tight">          
+            <span className="text-lg">Arnaldo Torres Portfolio</span>
           </Link>
           <nav aria-label="Main Navigation" className="hidden md:flex gap-4 sm:gap-6 text-sm">
             {nav.map((item) => (
