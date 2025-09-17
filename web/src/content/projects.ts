@@ -25,7 +25,7 @@ export const projects: Project[] = [
         caption: "User Experience Diagram"
       },
       {
-        src: "/properform-screenshot2.jpg",
+        src: "/Pform/.jpg",
         alt: "Proper Form Nutrition Tracker",
         caption: "Nutrition Tracking Dashboard"
       },
