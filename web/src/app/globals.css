@@ -1,7 +1,9 @@
 @import "tailwindcss";
 /* GitHub Markdown CSS for README rendering */
-@import url('https://unpkg.com/github-markdown-css@5.5.1/github-markdown-light.css');
-@import url('https://unpkg.com/github-markdown-css@5.5.1/github-markdown-dark.css') (prefers-color-scheme: dark);
+/* @import url('https://unpkg.com/github-markdown-css@5.5.1/github-markdown-light.css');
+@import url('https://unpkg.com/github-markdown-css@5.5.1/github-markdown-dark.css') (prefers-color-scheme: dark); */
+@import "./markdownLight.css";
+@import "./markdownDark.css";
 
 :root {
   --background: #ffffff;
