@@ -17,26 +17,30 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   };
 }
 
-async function fetchReadme(repoUrl: string): Promise<string> {
+async function fetchReadme(repoUrl: string): Promise<{ content: string; baseUrl: string | null }> {
   try {
     const repoPath = new URL(repoUrl).pathname;
-    const readmeUrl = `https://raw.githubusercontent.com${repoPath}/main/README.md`;
-    const response = await fetch(readmeUrl, { next: { revalidate: 3600 } });
+    const mainReadmeUrl = `https://raw.githubusercontent.com${repoPath}/main/README.md`;
+    const response = await fetch(mainReadmeUrl, { next: { revalidate: 3600 } });
     
     if (!response.ok) {
       // Try with master branch if main doesn't exist
-      const masterUrl = `https://raw.githubusercontent.com${repoPath}/master/README.md`;
-      const masterResponse = await fetch(masterUrl);
+      const masterReadmeUrl = `https://raw.githubusercontent.com${repoPath}/master/README.md`;
+      const masterResponse = await fetch(masterReadmeUrl);
       if (masterResponse.ok) {
-        return await masterResponse.text();
+        const content = await masterResponse.text();
+        const baseUrl = `https://raw.githubusercontent.com${repoPath}/master/`;
+        return { content, baseUrl };
       }
-      return '';
+      return { content: '', baseUrl: null };
     }
     
-    return await response.text();
+    const content = await response.text();
+    const baseUrl = `https://raw.githubusercontent.com${repoPath}/main/`;
+    return { content, baseUrl };
   } catch (error) {
     console.error('Error fetching README:', error);
-    return '';
+    return { content: '', baseUrl: null };
   }
 }
 
@@ -45,8 +49,11 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
   if (!project) return notFound();
 
   let readmeContent = '';
+  let readmeBaseUrl: string | null = null;
   if (project.repoUrl && project.repoUrl.includes('github.com')) {
-    readmeContent = await fetchReadme(project.repoUrl);
+    const { content, baseUrl } = await fetchReadme(project.repoUrl);
+    readmeContent = content;
+    readmeBaseUrl = baseUrl;
   }
 
   return (
@@ -106,8 +113,8 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
       {readmeContent ? (
         <div className="space-y-4">
           <h2 className="text-xl font-semibold">Project Documentation</h2>
-          <div className="prose dark:prose-invert max-w-none p-6 rounded-lg border">
-            <MarkdownContent content={readmeContent} />
+          <div className="p-6 rounded-lg border overflow-x-auto">
+            <MarkdownContent content={readmeContent} baseUrl={readmeBaseUrl ?? undefined} />
           </div>
         </div>
       ) : project.repoUrl ? (

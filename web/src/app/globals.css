@@ -1,4 +1,7 @@
 @import "tailwindcss";
+/* GitHub Markdown CSS for README rendering */
+@import url('https://unpkg.com/github-markdown-css@5.5.1/github-markdown-light.css');
+@import url('https://unpkg.com/github-markdown-css@5.5.1/github-markdown-dark.css') (prefers-color-scheme: dark);
 
 :root {
   --background: #ffffff;
@@ -33,4 +36,13 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+/* Optional: make the markdown container adapt spacing nicely */
+.markdown-body {
+  box-sizing: border-box;
+}
+
+.markdown-body img {
+  background-color: transparent;
 }
