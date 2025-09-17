@@ -75,37 +75,25 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
 
       {/* Project Images */}
       {project.images && project.images.length > 0 && (
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {project.images.map((img, idx) => (
-            <div key={idx} className="rounded-lg overflow-hidden border">
-              <Image
-                src={img.src}
-                alt={img.alt}
-                width={1200}
-                height={630}
-                className="w-full h-auto"
-              />
+            <figure key={idx} className="rounded-lg overflow-hidden border bg-muted/10">
+              <div className="relative aspect-[4/3] bg-background">
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-contain p-2"
+                />
+              </div>
               {img.caption && (
-                <div className="p-4 text-sm text-muted-foreground">
+                <figcaption className="p-3 text-sm text-muted-foreground border-t bg-background/60">
                   {img.caption}
-                </div>
+                </figcaption>
               )}
-            </div>
+            </figure>
           ))}
-        </div>
-      )}
-
-      {/* Project Highlights */}
-      {project.highlights && project.highlights.length > 0 && (
-        <div className="space-y-2">
-          <h2 className="text-xl font-semibold">Highlights</h2>
-          <ul className="list-disc pl-6 space-y-1">
-            {project.highlights.map((highlight, i) => (
-              <li key={i} className="text-muted-foreground">
-                {highlight}
-              </li>
-            ))}
-          </ul>
         </div>
       )}
 
@@ -122,6 +110,20 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
           No README available for this project.
         </div>
       ) : null}
+
+      {/* Project Highlights */}
+      {project.highlights && project.highlights.length > 0 && (
+        <div className="space-y-2">
+          <h2 className="text-xl font-semibold">Highlights</h2>
+          <ul className="list-disc pl-6 space-y-1">
+            {project.highlights.map((highlight, i) => (
+              <li key={i} className="text-muted-foreground">
+                {highlight}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {/* Action Buttons */}
       <div className="flex flex-wrap gap-4 pt-6">
