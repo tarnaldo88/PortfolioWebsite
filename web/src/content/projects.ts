@@ -41,7 +41,7 @@ export const projects: Project[] = [
     title: "Redis Server & Redis Client",
     slug: "redis-server-client",
     shortDescription: "Redis Server and Client built from scratch in C++.",
-    techStack: ["C++", "Redis", "Redis"],
+    techStack: ["C++", "Redis", "Multithreading", "Algorithms", "Networking", "Design Patterns", "Sockets"],
     tags: ["CLI", "redis", "c++", "multithreading", "algorithms", "networking", "design patterns", "sockets"],
     status: "released",
     featured: true,
@@ -52,7 +52,7 @@ export const projects: Project[] = [
       { src: "/RedisTorres.png", alt: "redis serverq icon" },
       { src: "/redis/overview.png", alt: "redis overview", caption: "Redis Server Features & Overview" },
       { src: "/redis/supcmds.png", alt: "redis commands", caption: "Redis Server Commands that are currently supported. Implementation of additional commands in progress." },
-      { src: "/RedisTorres.png", alt: "redis serverq icon", caption: "Redis Client" },
+      { src: "/redis/redisclient.png", alt: "redis client overview", caption: "Redis Client Overview" },
     ],
   },
   {
