@@ -67,7 +67,10 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Build-Z-Shell",
     liveUrl: "#",
     images: [
-      { src: "/TorresShell.png", alt: "z shell icon" }
+      { src: "/TorresShell.png", alt: "z shell icon" },
+      { src: "/shell/shelloverview.png", alt: "shell overview", caption: "Shell Overview" },
+      { src: "/shell/shellhow.png", alt: "shell how it works", caption: "How the shell works" },
+      { src: "/shell/cmd.png", alt: "shell builtins", caption: "Built-in commands" },
     ]
   },
   
