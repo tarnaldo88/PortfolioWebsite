@@ -11,7 +11,7 @@ export const projects: Project[] = [
     status: "released",
     featured: true,
     highlights: ["Realtime Chat", "Nutrition Tracker", "Workout Tracker", "Progress Tracker"],
-    repoUrl: "https://github.com/",
+    repoUrl: "https://github.com/tarnaldo88/Proper-Form-Firebase",
     liveUrl: "#",
     images: [
       { 
@@ -25,12 +25,12 @@ export const projects: Project[] = [
         caption: "User Experience Diagram"
       },
       {
-        src: "/Pform/.jpg",
+        src: "/Pform/nutHome.png",
         alt: "Proper Form Nutrition Tracker",
         caption: "Nutrition Tracking Dashboard"
       },
       {
-        src: "/properform-screenshot3.jpg",
+        src: "/Pform/comHome.png",
         alt: "Proper Form Chat Feature",
         caption: "Realtime Chat with Trainers"
       }
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Redis-Client",
     liveUrl: "#",
     images: [
-      { src: "/RedisTorres.png", alt: "redis serverq icon" },
+      { src: "/redis/RedisClientTorres.png", alt: "redis client icon" },
       // { src: "/redis/overview.png", alt: "redis overview", caption: "Redis Server Features & Overview" },
       // { src: "/redis/supcmds.png", alt: "redis commands", caption: "Redis Server Commands that are currently supported. Implementation of additional commands in progress." },
       // { src: "/redis/redisclient.png", alt: "redis client overview", caption: "Redis Client Overview" },
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Build-Z-Shell",
     liveUrl: "#",
     images: [
-      { src: "/TorresShell.png", alt: "z shell icon" },
+      { src: "/TorresShell.png", alt: "torres C shell icon" },
     ]
   },
   
