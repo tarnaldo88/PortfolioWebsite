@@ -1,7 +1,7 @@
 import Container from "@/components/Container";
 import { getProjectBySlug } from "@/content/projects";
 import { MarkdownContent } from "@/components/MarkdownContent";
-import Image from "next/image";
+import ProjectImageGallery from "@/components/ProjectImageGallery";
 import { notFound } from "next/navigation";
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
@@ -75,26 +75,7 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
 
       {/* Project Images */}
       {project.images && project.images.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {project.images.map((img, idx) => (
-            <figure key={idx} className="rounded-lg overflow-hidden border bg-muted/10">
-              <div className="relative aspect-[4/3] bg-background">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              {img.caption && (
-                <figcaption className="p-3 text-sm text-muted-foreground border-t bg-background/60">
-                  {img.caption}
-                </figcaption>
-              )}
-            </figure>
-          ))}
-        </div>
+        <ProjectImageGallery images={project.images} />
       )}
 
       {/* README Content */}
