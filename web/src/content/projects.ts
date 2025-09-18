@@ -151,13 +151,23 @@ export const projects: Project[] = [
     slug: "what-to-watch",
     shortDescription: "A lightweight, Windows-focused network packet sniffer with a clean Tkinter GUI. It captures IPv4 traffic using raw sockets and presents a color-coded, filterable view of packets with a details pane for deeper inspection.",
     techStack: ["react", "nextjs", "moviedb API"],
-    tags: ["networking", "python", "GUI", "sockets"],
+    tags: ["networking", "typescript", "moviedb API"],
     status: "released",
     featured: true,
     repoUrl: "https://github.com/tarnaldo88/What-To-Watch",
     liveUrl: "#",
     images: [
-      { src: "/TorresShark.png", alt: "network sniffer icon" }
+      { src: "/whatWatch/WhatToWatchLogo.png", alt: "what to watch logo" },
+      {
+        src: "/whatWatch/home.png",
+        alt: "home screen",
+        caption: "Home Screen of What To Watch, with search bar, movie carousel, and movie suggestions below."
+      },
+      {
+        src: "/whatWatch/btmHome.png",
+        alt: "bottom home screen",
+        caption: "Bottom portion of the Home Screen containing movie suggestions, upcoming movies, and popular movies"
+      },
     ]
   }
 ];
