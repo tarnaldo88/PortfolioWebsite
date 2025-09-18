@@ -30,10 +30,45 @@ export const projects: Project[] = [
         caption: "Nutrition Tracking Dashboard"
       },
       {
+        src: "/Pform/foodentry.png",
+        alt: "Proper Form food entry",
+        caption: "Nutrition Tracking Entry Form, where users can add food items to their nutrition log"
+      },
+      {
+        src: "/Pform/nutjournal.png",
+        alt: "Proper Form journal",
+        caption: "Nutrition Journal where users can view their nutrition log, and view their daily caloric intake, as well as carbs, sugar and protein"
+      },
+      {
         src: "/Pform/comHome.png",
         alt: "Proper Form Chat Feature",
         caption: "Realtime Chat with Trainers"
-      }
+      },
+      {
+        src: "/Pform/chatselect.png",
+        alt: "Proper Form Chat select",
+        caption: "Realtime Chat with Trainers"
+      },
+      {
+        src: "/Pform/exHome.png",
+        alt: "Proper Form Workout Tracker",
+        caption: "Workout Tracking Dashboard"
+      },
+      {
+        src: "/Pform/exselect.png",
+        alt: "Proper Form Exercise Selector",
+        caption: "Exercise Selector (same format for the stretches section)"
+      },
+      {
+        src: "/Pform/exworkoutlist.png",
+        alt: "Proper Form Exercise list",
+        caption: "List of available exercises for user to select from. Same layout for the stretches section."
+      },
+      {
+        src: "/Pform/exExample.png",
+        alt: "Proper Form Exercise example",
+        caption: "When user selects an exercise, it opens a modal with the exercise details"
+      },
     ]
   },
   {
