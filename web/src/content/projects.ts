@@ -69,6 +69,11 @@ export const projects: Project[] = [
         alt: "Proper Form Exercise example",
         caption: "When user selects an exercise, it opens a modal with the exercise details"
       },
+      {
+        src: "/Pform/routineSelect.png",
+        alt: "Proper Form Routine Select",
+        caption: " When user selects Routine Generator, they are presented with the different areas of the body to select from. As they select areas they are moved down into the generator. They can also touch areas selected to remove from generator before finalizing with the generate button."
+      },
     ]
   },
   {
