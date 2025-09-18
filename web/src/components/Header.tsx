@@ -16,7 +16,7 @@ export default function Header() {
     <header className="sticky top-0 z-30 w-full backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b border-black/10 dark:border-white/10">
       <Container className="flex h-14 items-center justify-between">
         <div className="flex items-center gap-6">
-          <Image src="./logoblue.svg" alt="Logo" width={32} height={32} />
+          <Image src="/logoblue.png" alt="Logo" width={52} height={52} />
           <Link href="/" className="font-semibold tracking-tight">          
             <span className="text-lg">Arnaldo Torres Portfolio</span>
           </Link>
