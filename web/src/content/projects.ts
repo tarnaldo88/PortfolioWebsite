@@ -149,9 +149,9 @@ export const projects: Project[] = [
     id: "p6",
     title: "What To Watch?",
     slug: "what-to-watch",
-    shortDescription: "A lightweight, Windows-focused network packet sniffer with a clean Tkinter GUI. It captures IPv4 traffic using raw sockets and presents a color-coded, filterable view of packets with a details pane for deeper inspection.",
+    shortDescription: "A movie recommendation website that uses the moviedb API to search for movies and display them in a carousel.",
     techStack: ["react", "nextjs", "moviedb API"],
-    tags: ["networking", "typescript", "moviedb API"],
+    tags: ["react", "nextjs", "moviedb API"],
     status: "released",
     featured: true,
     repoUrl: "https://github.com/tarnaldo88/What-To-Watch",
@@ -167,6 +167,21 @@ export const projects: Project[] = [
         src: "/whatWatch/btmHome.png",
         alt: "bottom home screen",
         caption: "Bottom portion of the Home Screen containing movie suggestions, upcoming movies, and popular movies"
+      },
+      {
+        src: "/whatWatch/mouse.png",
+        alt: "mouse over",
+        caption: "When user mouses over a movie tile, a description of that movie appears."
+      },
+      {
+        src: "/whatWatch/searchOpt.png",
+        alt: "search options",
+        caption: "Dropdown genre options for search bar. Further assisting the user in finding a movie they can watch."
+      },
+      {
+        src: "/whatWatch/searchResult.png",
+        alt: "search result",
+        caption: "Search results based on user's search query. Pulled from the moviedb API."
       },
     ]
   }
