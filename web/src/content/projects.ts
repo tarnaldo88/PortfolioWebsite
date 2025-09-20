@@ -198,8 +198,22 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/TCP-Server",
     liveUrl: "#",
     images: [
-      { src: "/tcp/tcpserver.png", alt: "tcp Server logo" },
-            
+      { src: "/tcp/tcpserver.png", alt: "tcp Server logo" },            
+    ]
+  },
+  {
+    id: "p8",
+    title: "TCP-Client",
+    slug: "tcp-client",
+    shortDescription: "A simple, lightweight TCP client implementation in C++ that echoes back any messages that successfully reach the server. This project serves as an educational example of basic socket programming in Windows using the Winsock API.",
+    techStack: ["C++", "sockets", "networking"],
+    tags: ["C++", "sockets", "networking"],
+    status: "released",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/TCP-Client",
+    liveUrl: "#",
+    images: [
+      { src: "/tcp/tcpclient.png", alt: "tcp client logo" },            
     ]
   }
 ];
