@@ -183,6 +183,23 @@ export const projects: Project[] = [
         alt: "search result",
         caption: "Search results based on user's search query. Pulled from the moviedb API."
       },
+      
+    ]
+  },
+  {
+    id: "p7",
+    title: "TCP-Server",
+    slug: "tcp-server",
+    shortDescription: "A simple, lightweight TCP server implementation in C++ that echoes back any received messages to connected clients. This project serves as an educational example of basic socket programming in Windows using the Winsock API.",
+    techStack: ["C++", "sockets", "networking"],
+    tags: ["C++", "sockets", "networking"],
+    status: "released",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/TCP-Server",
+    liveUrl: "#",
+    images: [
+      { src: "/whatWatch/WhatToWatchLogo.png", alt: "tcp Server logo" },
+            
     ]
   }
 ];
