@@ -198,7 +198,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/TCP-Server",
     liveUrl: "#",
     images: [
-      { src: "/tcp/tcpserver.png", alt: "tcp Server logo" },            
+      { src: "/tcp/tcpserv.png", alt: "tcp Server logo" },            
     ]
   },
   {
