@@ -17,9 +17,11 @@ export default function AboutPage() {
       </p>
       <h2>Skills</h2>
       <ul>
-        <li>Frontend: React, Next.js, TypeScript, Tailwind CSS</li>
-        <li>Backend: Node.js, REST, Prisma</li>
-        <li>Tools: GitHub, Vercel, CI/CD, Testing</li>
+      <li>Frontend: Next.js 14, React, TypeScript, Tailwind CSS, shadcn/ui</li>
+  <li>Mobile: React Native, Expo, Firebase Authentication</li>
+  <li>Backend & Systems: C/C++ (C++17), POSIX/Linux programming, Sockets, Multithreading, Protocol Parsing (RESP)</li>
+  <li>Networking & Tools: Raw Socket Capture, Wireshark-style Packet Analysis, REST APIs</li>
+  <li>Development: Git/GitHub, Make, Cross-Platform Builds, Vercel, CI/CD</li>
       </ul>
     </Container>
   );
