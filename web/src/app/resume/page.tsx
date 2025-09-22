@@ -27,7 +27,7 @@ export default async function ResumePage() {
           </p>
         </div>
         <a 
-          href="/resume.pdf" 
+          href="/TorresResume.pdf" 
           className="inline-flex items-center px-4 py-2 text-sm rounded-md border border-black/10 dark:border-white/15 hover:bg-black/5 dark:hover:bg-white/10 transition-colors"
           download
         >
