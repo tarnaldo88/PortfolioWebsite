@@ -215,7 +215,47 @@ export const projects: Project[] = [
     images: [
       { src: "/tcp/tcpclient.png", alt: "tcp client logo" },            
     ]
-  }
+  },
+  {
+    id: "p9",
+    title: "React-Dashboard",
+    slug: "react-dashboard",
+    shortDescription: "A modern, responsive, and feature-rich admin dashboard built with React, Material-UI, and Nivo charts. This dashboard provides a comprehensive set of tools and visualizations for data management and analytics.",
+    techStack: ["React", "Material-UI", "Nivo charts"],
+    tags: ["react", "material-ui", "nivo charts"],
+    status: "released",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/React-Admin-Dashboard",
+    liveUrl: "#",
+    images: [
+      { src: "/reactDash/reactDash.png", alt: "react dashboard logo" },
+      {
+        src: "/reactDash/team.png",
+        alt: "team screen",
+        caption: "Team section screen, where the admin can manage team members"
+      },
+      {
+        src: "/reactDash/faq.png",
+        alt: "faq screen",
+        caption: "FAQ section screen, where the admin can manage frequently asked questions"
+      },
+      {
+        src: "/reactDash/bar.png",
+        alt: "bar screen",
+        caption: "Bar graph section screen, where the admin can visualize data using bar graphs"
+      },
+      {
+        src: "/reactDash/pie.png",
+        alt: "pie screen",
+        caption: "Pie chart section screen, where the admin can visualize data using pie charts"
+      },
+      {
+        src: "/reactDash/geo.png",
+        alt: "geo screen",
+        caption: "Geo chart section screen, where the admin can visualize data using geo charts"
+      },            
+    ]
+  },
 ];
 
 export function getAllTags(): string[] {
