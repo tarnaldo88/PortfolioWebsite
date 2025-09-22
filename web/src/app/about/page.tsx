@@ -15,13 +15,14 @@ export default function AboutPage() {
       a custom Unix shell, and a network packet sniffer to modern apps like a cross-platform fitness tracker (React Native + Firebase) 
       and a movie discovery website built with Next.js 14, TypeScript, and Tailwind CSS. I enjoy designing efficient, maintainable code, whether I’m working with raw sockets and concurrency or creating smooth, accessible UIs. My goal is to keep growing as a full-stack engineer — deepening my expertise in backend systems, distributed computing, and scalable APIs while continuing to deliver great UX on the frontend.
       </p>
+      
       <h2>Skills</h2>
       <ul>
-      <li>Frontend: Next.js 14, React, TypeScript, Tailwind CSS, shadcn/ui</li>
-  <li>Mobile: React Native, Expo, Firebase Authentication</li>
-  <li>Backend & Systems: C/C++ (C++17), POSIX/Linux programming, Sockets, Multithreading, Protocol Parsing (RESP)</li>
-  <li>Networking & Tools: Raw Socket Capture, Wireshark-style Packet Analysis, REST APIs</li>
-  <li>Development: Git/GitHub, Make, Cross-Platform Builds, Vercel, CI/CD</li>
+        <li>Frontend: Next.js 14, React, TypeScript, Tailwind CSS, shadcn/ui</li>
+        <li>Mobile: React Native, Expo, Firebase Authentication</li>
+        <li>Backend & Systems: C/C++ (C++17), POSIX/Linux programming, Sockets, Multithreading, Protocol Parsing (RESP)</li>
+        <li>Networking & Tools: Raw Socket Capture, Wireshark-style Packet Analysis, REST APIs</li>
+        <li>Development: Git/GitHub, Make, Cross-Platform Builds, Vercel, CI/CD</li>
       </ul>
     </Container>
   );
