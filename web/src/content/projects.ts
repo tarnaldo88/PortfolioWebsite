@@ -228,7 +228,12 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/React-Admin-Dashboard",
     liveUrl: "#",
     images: [
-      { src: "/reactDash/reactDash.png", alt: "react dashboard logo" },
+      { src: "/reactDash/dashlogo.png", alt: "react dashboard logo" },
+      { 
+        src: "/reactDash/reactDash.png", 
+        alt: "react dashboard logo",
+        caption: "React Dashboard Homescreen for Administrator"
+       },
       {
         src: "/reactDash/team.png",
         alt: "team screen",
