@@ -20,7 +20,7 @@ export default function ResumePage() {
       <div className="mt-8 space-y-4 text-sm text-muted-foreground">
         <p><strong>Role:</strong> Software Engineer</p>
         <p><strong>Focus:</strong>Full-Stack & Backend</p>
-        <p><strong>Stack:</strong> React, JavaScript, Node.js, C++, C#</p>
+        <p><strong>Stack:</strong> React,C++, JavaScript, TypeScript, C#, Node.js,</p>
       </div>
     </Container>
   );
