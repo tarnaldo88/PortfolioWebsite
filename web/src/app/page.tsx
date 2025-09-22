@@ -18,9 +18,9 @@ export default function Home() {
               <Link href="/projects" className="inline-flex items-center px-4 py-2 text-sm rounded-md bg-foreground text-background">
                 View Projects
               </Link>
-              {/* <Link href="/contact" className="inline-flex items-center px-4 py-2 text-sm rounded-md border border-black/10 dark:border-white/15 hover:bg-black/5 dark:hover:bg-white/10">
-                Contact
-              </Link> */}
+              <Link href="/resume" className="inline-flex items-center px-4 py-2 text-sm rounded-md border border-black/10 dark:border-white/15 hover:bg-black/5 dark:hover:bg-white/10">
+                View Resume
+              </Link>
             </div>
           </div>
         </Container>
