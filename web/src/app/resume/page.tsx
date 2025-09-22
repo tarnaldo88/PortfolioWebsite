@@ -35,6 +35,11 @@ export default async function ResumePage() {
         </a>
       </div>
 
+      <div className="contact-info">
+        <div>✉️ Email: tarnaldo88@gmail.com</div>
+        <div>🔗 LinkedIn: <a href="https://linkedin.com/in/arnaldo-torres/">Arnaldo Torres</a></div>
+        <div>🔗 GitHub: <a href="https://github.com/tarnaldo88">Arnaldo's GitHub</a></div>
+      </div>
       <div className="markdown-body">
         <MarkdownContent content={markdown} />
       </div>

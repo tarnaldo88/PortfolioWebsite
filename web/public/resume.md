@@ -1,15 +1,9 @@
-# Arnaldo J. Torres
-
-<div class="contact-info">
-  <div>✉️ tarnaldo88@gmail.com</div>
-  <div>🔗 [linkedin.com/in/arnaldo-torres/](https://linkedin.com/in/arnaldo-torres/)</div>
-  <div>🔗 [github.com/tarnaldo88](https://github.com/tarnaldo88)</div>
-</div>
+# Arnaldo J. 
 
 ## Summary of Skills
 
 ### Languages
-C, C++, C#, JavaScript, Java, TypeScript, SQL, Python 3, HTML, CSS
+C, C++, C#, JavaScript, Java, TypeScript, Python 3, SQL, HTML, CSS
 
 ### Software
 ReactJS, Node.js, Next.js, .NET, Unity, Visual Studio, Android Studio, Apache NetBeans, Eclipse, Joomla
