@@ -77,7 +77,30 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
       {project.images && project.images.length > 0 && (
         <ProjectImageGallery images={project.images} />
       )}
-
+      
+      {/* Action Buttons */}
+      <div className="flex flex-wrap gap-4 pt-6">
+        {project.repoUrl && (
+          <a
+            href={project.repoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+          >
+            View on GitHub
+          </a>
+        )}
+        {project.liveUrl && project.liveUrl !== '#' && (
+          <a
+            href={project.liveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-3 text-base font-semibold rounded-md border-2 border-emerald-500 text-emerald-500 hover:bg-emerald-500 hover:text-background transition-colors shadow-sm"
+          >
+            Live Demo
+          </a>
+        )}
+      </div>
       {/* README Content */}
       {readmeContent ? (
         <div className="space-y-4">
@@ -106,29 +129,6 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
         </div>
       )}
 
-      {/* Action Buttons */}
-      <div className="flex flex-wrap gap-4 pt-6">
-        {project.repoUrl && (
-          <a
-            href={project.repoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
-          >
-            View on GitHub
-          </a>
-        )}
-        {project.liveUrl && project.liveUrl !== '#' && (
-          <a
-            href={project.liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 rounded-md border hover:bg-accent transition-colors"
-          >
-            Live Demo
-          </a>
-        )}
-      </div>
     </Container>
   );
 }
