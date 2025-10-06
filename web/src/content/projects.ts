@@ -174,6 +174,11 @@ export const projects: Project[] = [
         caption: "When user mouses over a movie tile, a description of that movie appears."
       },
       {
+        src: "/whatWatch/imagePop.png",
+        alt: "image gallery",
+        caption: "When user clicks a movie tile, a modal opens with the movie's image gallery, title, and description."
+      },
+      {
         src: "/whatWatch/searchOpt.png",
         alt: "search options",
         caption: "Dropdown genre options for search bar. Further assisting the user in finding a movie they can watch."
