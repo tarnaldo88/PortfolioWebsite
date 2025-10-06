@@ -155,7 +155,7 @@ export const projects: Project[] = [
     status: "released",
     featured: true,
     repoUrl: "https://github.com/tarnaldo88/What-To-Watch",
-    liveUrl: "#",
+    liveUrl: "https://what-to-watch-torres.vercel.app/",
     images: [
       { src: "/whatWatch/WhatToWatchLogo.png", alt: "what to watch logo" },
       {
