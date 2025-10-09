@@ -2,11 +2,48 @@ import Container from "@/components/Container";
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/content/projects";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   const featured = projects.filter((p) => p.featured);
   return (
     <>
+    <Head>
+        <title>Arnaldo Torres | Portfolio</title>
+        <meta
+          name="description"
+          content="Portfolio of Arnaldo Torres — building performant systems software and developer tools."
+        />
+
+        {/* Open Graph metadata */}
+        <meta property="og:title" content="Arnaldo Torres | Portfolio" />
+        <meta
+          property="og:description"
+          content="Explore modern apps, systems software, and developer tools crafted by Arnaldo Torres."
+        />
+        <meta
+          property="og:image"
+          content="https://arnaldo-torres-portfolio.vercel.app/og-image.png"
+        />
+        <meta
+          property="og:url"
+          content="https://arnaldo-torres-portfolio.vercel.app/"
+        />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter (optional, for richer previews) */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Arnaldo Torres | Portfolio" />
+        <meta
+          name="twitter:description"
+          content="Explore modern apps, systems software, and developer tools crafted by Arnaldo Torres."
+        />
+        <meta
+          name="twitter:image"
+          content="https://arnaldo-torres-portfolio.vercel.app/og-image.png"
+        />
+      </Head>
+      
       <section className="py-16">
         <Container>
           <div className="max-w-3xl">
