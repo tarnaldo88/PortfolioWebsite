@@ -77,6 +77,22 @@ export const projects: Project[] = [
     ]
   },
   {
+    id: "p10",
+    title: "ShazLite",
+    slug: "shaz-lite",
+    shortDescription: "A light version of the app Shazam written in C++ and python with a GUI using QT.",
+    techStack: ["C++", "QT", "Python", "API", "PostgreSQL", "Docker", "Design Patterns"],
+    tags: ["c++", "multithreading", "algorithms", "docker", "qt", "python", "api", "postgresql"],
+    status: "in_progress",
+    featured: true,
+    highlights: ["Audio Fingerprinting", "QT GUI", "API"],
+    repoUrl: "https://github.com/tarnaldo88/Shazlite",
+    liveUrl: "#",
+    images: [
+      { src: "/Shazlite/ShazLiteTorres.png", alt: "shazlite icon" },
+    ]
+  },
+  {
     id: "p2",
     title: "Redis Server",
     slug: "redis-server",
