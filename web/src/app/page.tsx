@@ -3,6 +3,7 @@ import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/content/projects";
 import Link from "next/link";
 import Head from "next/head";
+import { Github } from "lucide-react";
 
 export default function Home() {
   const featured = projects.filter((p) => p.featured);
@@ -58,6 +59,15 @@ export default function Home() {
               <Link href="/resume" className="inline-flex items-center px-4 py-2 text-sm rounded-md border border-black/10 dark:border-white/15 hover:bg-black/5 dark:hover:bg-white/10">
                 View Resume
               </Link>
+              <a 
+                href="https://github.com/tarnaldo88" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm rounded-md border border-black/10 dark:border-white/15 hover:bg-black/5 dark:hover:bg-white/10"
+              >
+                <Github className="w-4 h-4" />
+                GitHub
+              </a>
             </div>
           </div>
         </Container>
