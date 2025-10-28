@@ -7,14 +7,14 @@ const THEME_KEY = "theme"; // "light" | "dark" | "system"
 type Theme = "light" | "dark";
 
 function getSystemTheme(): Theme {
-  if (typeof window === "undefined") return "light";
+  if (typeof window === "undefined") return "dark";
   return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
-    : "light";
+    : "dark";
 }
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("dark");
 
   useEffect(() => {
     const saved = (localStorage.getItem(THEME_KEY) as Theme | null) ?? null;
