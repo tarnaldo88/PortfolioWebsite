@@ -90,6 +90,8 @@ export const projects: Project[] = [
     liveUrl: "#",
     images: [
       { src: "/Shazlite/ShazLiteTorres.png", alt: "shazlite icon" },
+      { src: "/Shazlite/main menu.png", alt: "shazlite main screen" },
+      { src: "/Shazlite/recording.png", alt: "shazlite recording" },
     ]
   },
   {
