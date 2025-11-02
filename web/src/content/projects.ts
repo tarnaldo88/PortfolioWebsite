@@ -77,6 +77,33 @@ export const projects: Project[] = [
     ]
   },
   {
+    id: "p11",
+    title: "Swipely",
+    slug: "swipely",
+    shortDescription: "A modern React Native e-commerce application featuring Tinder-style product discovery",
+    techStack: ["ReactNative", "TypeScript", "Firebase", "API"],
+    tags: ["reactnative", "typescript", "firebase", "api"],
+    status: "in_progress",
+    featured: true,
+    highlights: [""],
+    repoUrl: "https://github.com/tarnaldo88/Swipely",
+    liveUrl: "#",
+    images: [
+      { src: "/Swipely/SwipelyLogo.png", alt: "Swipely Logo" },
+      { src: "/Swipely/login.png", alt: "Swipely Login" },
+      { src: "/Swipely/Discover.png", alt: "Swipely Discover" },
+      { src: "/Swipely/LikeSwipe.png", alt: "Swipely Like Swipe" },
+      { src: "/Swipely/skipswipe.png", alt: "Swipely Skip Swipe" },
+      { src: "/Swipely/reviewSkipped.png", alt: "Swipely Review Skipped" },
+      { src: "/Swipely/skippedDiscovery.png", alt: "Swipely Skipped Discovery" },
+      { src: "/Swipely/wishlist.png", alt: "Swipely Wishlist" },
+      { src: "/Swipely/cart.png", alt: "Swipely Cart" },
+      { src: "/Swipely/profile.png", alt: "Swipely Profile" },
+      { src: "/Swipely/catSelect.png", alt: "Swipely Category Select" },
+
+    ]
+  },
+  {
     id: "p10",
     title: "ShazLite",
     slug: "shaz-lite",
