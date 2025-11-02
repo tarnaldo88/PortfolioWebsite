@@ -85,7 +85,7 @@ export const projects: Project[] = [
     tags: ["reactnative", "typescript", "firebase", "api"],
     status: "in_progress",
     featured: true,
-    highlights: [""],
+    highlights: ["Unit Tests", "Mock API", "Firebase Authentication"],
     repoUrl: "https://github.com/tarnaldo88/Swipely",
     liveUrl: "#",
     images: [
@@ -119,6 +119,52 @@ export const projects: Project[] = [
       { src: "/Shazlite/ShazLiteTorres.png", alt: "shazlite icon" },
       { src: "/Shazlite/main menu.png", alt: "shazlite main screen" },
       { src: "/Shazlite/recording.png", alt: "shazlite recording" },
+    ]
+  },
+  {
+    id: "p6",
+    title: "What To Watch?",
+    slug: "what-to-watch",
+    shortDescription: "A movie recommendation website that uses the moviedb API to search for movies and display them in a carousel.",
+    techStack: ["react", "nextjs", "moviedb API"],
+    tags: ["react", "nextjs", "moviedb API"],
+    status: "released",
+    featured: true,
+    repoUrl: "https://github.com/tarnaldo88/What-To-Watch",
+    liveUrl: "https://what-to-watch-torres.vercel.app/",
+    images: [
+      { src: "/whatWatch/WhatToWatchLogo.png", alt: "what to watch logo" },
+      {
+        src: "/whatWatch/home.png",
+        alt: "home screen",
+        caption: "Home Screen of What To Watch, with search bar, movie carousel, and movie suggestions below."
+      },
+      {
+        src: "/whatWatch/btmHome.png",
+        alt: "bottom home screen",
+        caption: "Bottom portion of the Home Screen containing movie suggestions, upcoming movies, and popular movies"
+      },
+      {
+        src: "/whatWatch/mouse.png",
+        alt: "mouse over",
+        caption: "When user mouses over a movie tile, a description of that movie appears."
+      },
+      {
+        src: "/whatWatch/imagePop.png",
+        alt: "image gallery",
+        caption: "When user clicks a movie tile, a modal opens with the movie's image gallery, title, and description."
+      },
+      {
+        src: "/whatWatch/searchOpt.png",
+        alt: "search options",
+        caption: "Dropdown genre options for search bar. Further assisting the user in finding a movie they can watch."
+      },
+      {
+        src: "/whatWatch/searchResult.png",
+        alt: "search result",
+        caption: "Search results based on user's search query. Pulled from the moviedb API."
+      },
+      
     ]
   },
   {
@@ -190,52 +236,7 @@ export const projects: Project[] = [
       { src: "/TorresShark.png", alt: "network sniffer icon" }
     ]
   },
-  {
-    id: "p6",
-    title: "What To Watch?",
-    slug: "what-to-watch",
-    shortDescription: "A movie recommendation website that uses the moviedb API to search for movies and display them in a carousel.",
-    techStack: ["react", "nextjs", "moviedb API"],
-    tags: ["react", "nextjs", "moviedb API"],
-    status: "released",
-    featured: true,
-    repoUrl: "https://github.com/tarnaldo88/What-To-Watch",
-    liveUrl: "https://what-to-watch-torres.vercel.app/",
-    images: [
-      { src: "/whatWatch/WhatToWatchLogo.png", alt: "what to watch logo" },
-      {
-        src: "/whatWatch/home.png",
-        alt: "home screen",
-        caption: "Home Screen of What To Watch, with search bar, movie carousel, and movie suggestions below."
-      },
-      {
-        src: "/whatWatch/btmHome.png",
-        alt: "bottom home screen",
-        caption: "Bottom portion of the Home Screen containing movie suggestions, upcoming movies, and popular movies"
-      },
-      {
-        src: "/whatWatch/mouse.png",
-        alt: "mouse over",
-        caption: "When user mouses over a movie tile, a description of that movie appears."
-      },
-      {
-        src: "/whatWatch/imagePop.png",
-        alt: "image gallery",
-        caption: "When user clicks a movie tile, a modal opens with the movie's image gallery, title, and description."
-      },
-      {
-        src: "/whatWatch/searchOpt.png",
-        alt: "search options",
-        caption: "Dropdown genre options for search bar. Further assisting the user in finding a movie they can watch."
-      },
-      {
-        src: "/whatWatch/searchResult.png",
-        alt: "search result",
-        caption: "Search results based on user's search query. Pulled from the moviedb API."
-      },
-      
-    ]
-  },
+  
   {
     id: "p7",
     title: "TCP-Server",
