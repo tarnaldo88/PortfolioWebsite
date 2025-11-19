@@ -206,22 +206,6 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "p4",
-    title: "Unix Shell in C",
-    slug: "unix-shell",
-    shortDescription: "An interactive shell that reads a command line, tokenizes it, and dispatches built-in commands",
-    techStack: ["C", "memory management", "algorithms", "networking", "design patterns"],
-    tags: ["C", "Z Shell", "Unix"],
-    status: "released",
-    featured: true,
-    repoUrl: "https://github.com/tarnaldo88/Build-Z-Shell",
-    liveUrl: "#",
-    images: [
-      { src: "/TorresShell.png", alt: "torres C shell icon" },
-    ]
-  },
-  
-  {
     id: "p5",
     title: "Network Packet Sniffer like WireShark",
     slug: "network-sniffer",
@@ -233,10 +217,10 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Network-Packet-Sniffer",
     liveUrl: "#",
     images: [
-      { src: "/TorresShark.png", alt: "network sniffer icon" }
+      { src: "/TorresShark.png", alt: "network sniffer icon" },
+      { src: "/packet.png", alt: "Example of application GUI" },
     ]
-  },
-  
+  },  
   {
     id: "p7",
     title: "TCP-Server",
@@ -267,6 +251,21 @@ export const projects: Project[] = [
       { src: "/tcp/tcpclient.png", alt: "tcp client logo" },            
     ]
   },
+  {
+    id: "p4",
+    title: "Unix Shell in C",
+    slug: "unix-shell",
+    shortDescription: "An interactive shell that reads a command line, tokenizes it, and dispatches built-in commands",
+    techStack: ["C", "memory management", "algorithms", "networking", "design patterns"],
+    tags: ["C", "Z Shell", "Unix"],
+    status: "released",
+    featured: true,
+    repoUrl: "https://github.com/tarnaldo88/Build-Z-Shell",
+    liveUrl: "#",
+    images: [
+      { src: "/TorresShell.png", alt: "torres C shell icon" },
+    ]
+  },  
   {
     id: "p9",
     title: "React-Dashboard",
