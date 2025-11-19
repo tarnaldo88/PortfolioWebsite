@@ -220,7 +220,22 @@ export const projects: Project[] = [
       { src: "/TorresShark.png", alt: "network sniffer icon" },
       { src: "/packet.png", alt: "Example of application GUI" },
     ]
-  },  
+  }, 
+  {
+    id: "p12",
+    title: "Abstract Switch",
+    slug: "abstract-switch",
+    shortDescription: "Small, modular network OS (similar to SONiC’s Switch Abstraction Interface)",
+    techStack: ["C", "CMake", "Linux", "networking", "design patterns"],
+    tags: ["C", "CMake", "Linux", "networking", "design patterns"],
+    status: "released",
+    featured: true,
+    repoUrl: "https://github.com/tarnaldo88/Abstract-Switch",
+    liveUrl: "#",
+    images: [
+      { src: "", alt: "" },
+    ]
+  }, 
   {
     id: "p7",
     title: "TCP-Server",
