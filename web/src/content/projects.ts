@@ -233,7 +233,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Abstract-Switch",
     liveUrl: "#",
     images: [
-      { src: "", alt: "" },
+      { src: "/AbstractSwitch.png", alt: "the abstract switch icon" },
     ]
   }, 
   {
