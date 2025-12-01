@@ -293,7 +293,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Workstealing-Threadpool",
     liveUrl: "#",
     images: [
-      { src: "/tcp/tcpclient.png", alt: "tcp client logo" },            
+      { src: "/Threadpool.png", alt: "WorkStealing / Threadpool logo" },            
     ]
   },
   {
