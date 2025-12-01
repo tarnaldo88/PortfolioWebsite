@@ -282,6 +282,21 @@ export const projects: Project[] = [
     ]
   },  
   {
+    id:"p13",
+    title :"WorkStealing /Threadpool",
+    slug: "threadpool",
+    shortDescription: "",
+    techStack: ["C++", "sockets", "networking", "multithreading", "Cache Localtiy", "Load Balancing", "Priority Scheduling"],
+    tags: ["C++", "sockets", "networking", "multithreading", "Cache Localtiy", "Load Balancing", "Priority Scheduling"],
+    status: "released",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/Workstealing-Threadpool",
+    liveUrl: "#",
+    images: [
+      { src: "/tcp/tcpclient.png", alt: "tcp client logo" },            
+    ]
+  },
+  {
     id: "p9",
     title: "React-Dashboard",
     slug: "react-dashboard",
