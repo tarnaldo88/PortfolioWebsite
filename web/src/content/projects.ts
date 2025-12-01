@@ -179,10 +179,10 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/TorresTrivia",
     liveUrl: "#",
     images: [
-      { src: "/TorresTrivia.png", alt: "Torres Trivia icon" },
-      { src: "/triviaHomescreen.png", alt: "Torres Trivia home screen" },
-      { src: "/headsup.png", alt: "heads up screen" },
-      { src: "/trivia.png", alt: "Trivia Screen" },
+      { src: "/trivia/TorresTrivia.png", alt: "Torres Trivia icon" },
+      { src: "/trivia/triviaHomescreen.png", alt: "Torres Trivia home screen" },
+      { src: "/trivia/headsup.png", alt: "heads up screen" },
+      { src: "/trivia/trivia.png", alt: "Trivia Screen" },
     ]
   }, 
   {
