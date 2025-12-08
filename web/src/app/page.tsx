@@ -77,7 +77,7 @@ export default function Home() {
         <Container>
           <div className="flex items-baseline justify-between">
             <h2 className="text-xl font-semibold">Featured Projects</h2>
-            <Link href="/projects" className="text-sm hover:underline underline-offset-4">All projects→</Link>
+            <Link href="/projects" className="text-sm hover:underline underline-offset-4 text-xl">View All Projects→</Link>
           </div>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {featured.map((project) => (
