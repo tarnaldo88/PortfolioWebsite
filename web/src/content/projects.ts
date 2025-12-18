@@ -186,6 +186,20 @@ export const projects: Project[] = [
     ]
   }, 
   {
+    id:"p15",
+    title: "Recuria",
+    slug: "Recuria",
+    shortDescription: "Recuria is a multi-tenant SaaS subscription and billing platform for B2B software products, supporting plan management, recurring invoices, and role-based access.",
+    techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Identity", "JWT"],
+    tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", ],
+    status: "in_progress",
+    featured: false,
+    highlights: [],
+    repoUrl: "https://github.com/tarnaldo88/Recuria",
+    liveUrl:"#",
+    images:[],
+  },
+  {
     id: "p2",
     title: "Redis Server",
     slug: "redis-server",
@@ -204,20 +218,7 @@ export const projects: Project[] = [
       // { src: "/redis/redisclient.png", alt: "redis client overview", caption: "Redis Client Overview" },
     ],
   },
-  {
-    id:"p15",
-    title: "Recuria",
-    slug: "Recuria",
-    shortDescription: "Recuria is a multi-tenant SaaS subscription and billing platform for B2B software products, supporting plan management, recurring invoices, and role-based access.",
-    techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Identity", "JWT"],
-    tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", ],
-    status: "in_progress",
-    featured: false,
-    highlights: [],
-    repoUrl: "https://github.com/tarnaldo88/Recuria",
-    liveUrl:"#",
-    images:[],
-  },
+  
   {
     id: "p3",
     title: "Redis Client",
