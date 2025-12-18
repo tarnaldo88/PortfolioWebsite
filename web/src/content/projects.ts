@@ -210,7 +210,7 @@ export const projects: Project[] = [
     slug: "Recuria",
     shortDescription: "Recuria is a multi-tenant SaaS subscription and billing platform for B2B software products, supporting plan management, recurring invoices, and role-based access.",
     techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Identity", "JWT"],
-    tags:["SaaS", "B2B", ".NET"],
+    tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", ],
     status: "in_progress",
     featured: false,
     highlights: [],
