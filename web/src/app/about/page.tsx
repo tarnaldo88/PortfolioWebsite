@@ -19,7 +19,7 @@ export default function AboutPage() {
       <h2>Skills</h2>
       <ul>
         <li>Frontend: React Native, React, TypeScript, Next.js 14,Tailwind CSS, shadcn/ui</li>
-        <li>Mobile: React Native, Expo, Firebase Authentication</li>
+        <li>Mobile: React Native, Expo, Firebase</li>
         <li>Backend & Systems: C#, ASP.NET, C/C++ (C++17), POSIX/Linux programming, Sockets, Multithreading, Protocol Parsing (RESP)</li>
         <li>Networking & Tools: Raw Socket Capture, Wireshark-style Packet Analysis, REST APIs</li>
         <li>Development: Git/GitHub, Make, Cross-Platform Builds, Vercel, CI/CD</li>
