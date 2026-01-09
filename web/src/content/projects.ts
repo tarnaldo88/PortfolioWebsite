@@ -197,7 +197,9 @@ export const projects: Project[] = [
     highlights: [],
     repoUrl: "https://github.com/tarnaldo88/Recuria",
     liveUrl:"#",
-    images:[],
+    images:[
+      {src: "/RecuriaLogo.png", alt: "Recuria Logo"},
+    ],
   },
   {
     id: "p2",
