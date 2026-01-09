@@ -193,7 +193,7 @@ export const projects: Project[] = [
     techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Web API", "JWT", "Full-Stack","JWT-based API authentication",],
     tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", "xUnit Testing", ],
     status: "in_progress",
-    featured: false,
+    featured: true,
     highlights: [],
     repoUrl: "https://github.com/tarnaldo88/Recuria",
     liveUrl:"#",
@@ -248,7 +248,7 @@ export const projects: Project[] = [
     techStack: ["python", "networking", "Pinecone"],
     tags: ["networking", "python", "GUI", "sockets"],
     status: "released",
-    featured: true,
+    featured: false,
     repoUrl: "https://github.com/tarnaldo88/Network-Packet-Sniffer",
     liveUrl: "#",
     images: [
@@ -309,7 +309,7 @@ export const projects: Project[] = [
     techStack: ["C", "memory management", "algorithms", "networking", "design patterns"],
     tags: ["C", "Z Shell", "Unix"],
     status: "released",
-    featured: true,
+    featured: false,
     repoUrl: "https://github.com/tarnaldo88/Build-Z-Shell",
     liveUrl: "#",
     images: [
