@@ -45,6 +45,16 @@ PCBAs by refactoring Schema, increasing processing performance by 30%.
 
 ## Personal Projects
 
+### Swipely
+Developed a full stack mobile and web e-commerce application using React Native and Expo, featuring an innovative Tinder-style product discovery interface with gesture-based interactions. Implemented comprehensive shopping functionality including personalized product feeds, wishlist management, shopping cart, and user authentication using Firebase. Built a responsive, cross-platform solution that runs seamlessly on iOS, Android, and web browsers with platform specific optimizations and a comfortable layout for desktop viewing. Utilized TypeScript for type safety, React Navigation for routing, AsyncStorage for data persistence, and implemented advanced features including offline support, real-time data synchronization, category based filtering, and optimized image loading with lazy loading and caching strategies.
+
+### Recuria
+Designed and implemented Recuria, a modular SaaS style subscription and billing platform using .NET, EF Core, and Domain aDriven Design principles. Architected a clean, multi-layered solution with explicit subscription lifecycle management, billing orchestration, and domain events to enforce invariant-safe business rules. Implemented unit-tested application services, lifecycle orchestration, and persistence patterns aligned with real-world production systems. Focused on maintainability, testability, and scalability through clear separation of concerns and explicit domain modeling.
+
+### ShazLite (Audio Fingerprinting Application)
+Built ShazLite, a production-ready audio fingerprinting system similar to Shazam, using a modern tech stack including Qt6/C++, FastAPI/Python, and PostgreSQL. Developed custom spectral analysis algorithms achieving 99%+ identification accuracy with sub-500ms response times, while implementing scalable architecture supporting 1000+ concurrent users. Created a comprehensive testing suite with 95%+ coverage, optimized database queries with custom indexing, and built a cross-platform desktop application with smooth QML animations. Demonstrates full-stack development expertise from low-level C++ signal processing to high-level API design and user experience.
+
+
 ### Redis Server Database and Client
 Developed a Redis-like in-memory data store in modern C++ (C++17), featuring RESP protocol support for compatibility with redis-cli. Implemented core data structures (strings, lists, hashes) with thread-safe operations and periodic background persistence to a dump file. Designed a multithreaded TCP server supporting concurrent client connections and graceful shutdown with final state saving. Built a cross-platform Redis client capable of connecting to a Redis server over TCP, constructing RESP commands, and parsing server responses. Implemented portable socket handling for Windows (Winsock2) and Linux (POSIX), with a CLI scaffold ready for interactive command execution. This project demonstrates utilization of systems programming, networking, multithreading, and protocol design skills.
 
