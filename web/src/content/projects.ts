@@ -376,6 +376,21 @@ export const projects: Project[] = [
       },            
     ]
   },
+  {
+    id:"p16",
+    title:"Flash Study",
+    slug:"flash-study",
+    shortDescription:"Flash Card Studying Maui C# Application",
+    techStack: ["Maui", ".Net", "C#", "SQLite"],
+    tags: ["C#", "Maui", ".NET", "SQL", "SQLite", "Mobile App", "Desktop App"],
+    status:"in_progress",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/Flash-Study",
+    liveUrl: "#",
+    images: [
+      { src: "/flashStudy/flashStudy.png", alt: "flash study logo" },
+    ]
+  },
 ];
 
 export function getAllTags(): string[] {
