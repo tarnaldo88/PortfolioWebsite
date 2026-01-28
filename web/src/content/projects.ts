@@ -249,10 +249,11 @@ export const projects: Project[] = [
     tags: ["C#", "Maui", ".NET", "SQL", "SQLite", "Mobile App", "Desktop App"],
     status:"in_progress",
     featured: false,
+    highlights: ["Flash Card Studying", "Maui", ".NET", "C#", "SQLite"],
     repoUrl: "https://github.com/tarnaldo88/Flash-Study",
     liveUrl: "#",
     images: [
-      { src: "/flashStudy/flashStudy.png", alt: "flash study logo" },
+      { src: "/flashStudy/flashstudyLogo.png", alt: "flash study logo" },
     ]
   },
   {
