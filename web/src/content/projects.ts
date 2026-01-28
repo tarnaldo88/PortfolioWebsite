@@ -253,7 +253,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Flash-Study",
     liveUrl: "#",
     images: [
-      { src: "/flashStudy/flashstudyLogo.png", alt: "flash study logo" },
+      { src: "/flashstudyLogo.png", alt: "flash study logo" },
     ]
   },
   {
