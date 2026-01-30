@@ -190,8 +190,8 @@ export const projects: Project[] = [
     title: "Recuria",
     slug: "Recuria",
     shortDescription: "Recuria is a multi-tenant SaaS subscription and billing platform for B2B software products, supporting plan management, recurring invoices, and role-based access.",
-    techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Web API", "JWT", "Full-Stack","JWT-based API authentication",],
-    tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", "xUnit Testing", ],
+    techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Web API","Swagger API", "JWT", "Full-Stack","JWT-based API authentication",],
+    tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", "xUnit Testing", "Swagger API",],
     status: "in_progress",
     featured: true,
     highlights: [],
@@ -253,7 +253,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/tarnaldo88/Flash-Study",
     liveUrl: "#",
     images: [
-      { src: "/flashstudyLogo.png", alt: "flash study logo" },
+      { src: "/flashstudyLogo.png", alt: "flash-study logo" },
     ]
   },
   {
