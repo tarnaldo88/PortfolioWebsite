@@ -247,7 +247,7 @@ export const projects: Project[] = [
     shortDescription:"Flash Card Studying Maui C# Application",
     techStack: ["Maui", ".Net", "C#", "SQLite"],
     tags: ["C#", "Maui", ".NET", "SQL", "SQLite", "Mobile App", "Desktop App"],
-    status:"in_progress",
+    status:"released",
     featured: false,
     highlights: ["Flash Card Studying", "Maui", ".NET", "C#", "SQLite"],
     repoUrl: "https://github.com/tarnaldo88/Flash-Study",
