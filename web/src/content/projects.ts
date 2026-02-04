@@ -1,6 +1,76 @@
 import { Project } from "@/types/project";
 
-export const projects: Project[] = [
+export const projects: Project[] = [  
+  {
+    id:"p15",
+    title: "Recuria",
+    slug: "Recuria",
+    shortDescription: "Recuria is a multi-tenant SaaS subscription and billing platform for B2B software products, supporting plan management, recurring invoices, and role-based access.",
+    techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Web API","Swagger API", "JWT", "Full-Stack","JWT-based API authentication", "FluentValidation", "xUnit Testing", "Swagger API", "Serilog"],
+    tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", "xUnit Testing", "Swagger API",],
+    status: "in_progress",
+    featured: true,
+    highlights: [
+      "Implements full subscription lifecycles (trial - active - past-due - canceled - expired) with enforced business invariants.",
+      "Domain events + outbox pattern enable reliable, eventually consistent workflows and retries.",
+      "Automated billing with grace periods, retries, and invoice generation.",
+      "First-class observability with structured logs, metrics, and tracing for APIs and background services.",
+    ],
+    repoUrl: "https://github.com/tarnaldo88/Recuria",
+    liveUrl:"#",
+    images:[
+      {src: "/RecuriaLogoWhite.png", alt: "Recuria Logo"},
+    ],
+  },
+  {
+    id:"p17",
+    title :"Go Chaos",
+    slug: "go-chaos",
+    shortDescription: "A HTTP reverse proxy for testing APIs. Introduce network failures, HTTP errors, and inject latency to validate resilience.",
+    techStack: ["Golang", "Reverse Proxy", "Go 1.25.6", "net/http", "YAML Config", "HTTP Admin API", "Unit Tests"],
+    tags :["Go", "Golang", "Reverse Proxy", "Unit Tests", "Chaos Engineering", "HTTP Admin API", "YAML Config", "Resilience Testing", "Fault Injection", "Latency Injection", "Network Failure", "HTTP Errors", "HTTP", "Reverse Proxy", "Go 1.22", "net/http", "YAML Config", "HTTP Admin API", "Unit Tests"],
+    status:"released",
+    featured: true,
+    highlights:[
+      "Injects HTTP errors, latency, disconnects, DNS failures, and upstream timeouts to validate API resilience.",
+      "Per‑route include/exclude rules enable targeted chaos without disrupting health checks or static assets.",
+      "Live YAML config updates via admin API and built‑in UI—no restart required.",
+      "Built as a Go reverse proxy with configurable targets and transport‑level failure modes.",
+    ],
+    repoUrl: "https://github.com/tarnaldo88/Go-Chaos",
+    liveUrl:"#",
+    images:[
+      {src: "/GoChaos/GoChaosLogo.png", alt: "GoChaos Logo"},
+      {src: "/GoChaos/AdminPage.png", alt: "GoChaos Admin Page"},
+    ],
+  },
+  {
+    id: "p11",
+    title: "Swipely",
+    slug: "swipely",
+    shortDescription: "A modern React Native e-commerce application featuring Tinder-style product discovery",
+    techStack: ["ReactNative", "TypeScript", "Firebase", "API"],
+    tags: ["reactnative", "typescript", "firebase", "api", "eCommerce", ],
+    status: "in_progress",
+    featured: true,
+    highlights: ["Unit Tests", "Shopping Products API", "Firebase Authentication"],
+    repoUrl: "https://github.com/tarnaldo88/Swipely",
+    liveUrl: "#",
+    images: [
+      { src: "/Swipely/SwipelyLogo.png", alt: "Swipely Logo" },
+      { src: "/Swipely/login.png", alt: "Swipely Login" },
+      { src: "/Swipely/Discover.png", alt: "Swipely Discover" },
+      { src: "/Swipely/LikeSwipe.png", alt: "Swipely Like Swipe" },
+      { src: "/Swipely/skipswipe.png", alt: "Swipely Skip Swipe" },
+      { src: "/Swipely/reviewSkipped.png", alt: "Swipely Review Skipped" },
+      { src: "/Swipely/skippedDiscovery.png", alt: "Swipely Skipped Discovery" },
+      { src: "/Swipely/wishlist.png", alt: "Swipely Wishlist" },
+      { src: "/Swipely/cart.png", alt: "Swipely Cart" },
+      { src: "/Swipely/profile.png", alt: "Swipely Profile" },
+      { src: "/Swipely/catSelect.png", alt: "Swipely Category Select" },
+
+    ]
+  },
   {
     id: "p1",
     title: "Proper Form",
@@ -74,33 +144,6 @@ export const projects: Project[] = [
         alt: "Proper Form Routine Select",
         caption: " When user selects Routine Generator, they are presented with the different areas of the body to select from. As they select areas they are moved down into the generator. They can also touch areas selected to remove from generator before finalizing with the generate button."
       },
-    ]
-  },
-  {
-    id: "p11",
-    title: "Swipely",
-    slug: "swipely",
-    shortDescription: "A modern React Native e-commerce application featuring Tinder-style product discovery",
-    techStack: ["ReactNative", "TypeScript", "Firebase", "API"],
-    tags: ["reactnative", "typescript", "firebase", "api", "eCommerce", ],
-    status: "in_progress",
-    featured: true,
-    highlights: ["Unit Tests", "Shopping Products API", "Firebase Authentication"],
-    repoUrl: "https://github.com/tarnaldo88/Swipely",
-    liveUrl: "#",
-    images: [
-      { src: "/Swipely/SwipelyLogo.png", alt: "Swipely Logo" },
-      { src: "/Swipely/login.png", alt: "Swipely Login" },
-      { src: "/Swipely/Discover.png", alt: "Swipely Discover" },
-      { src: "/Swipely/LikeSwipe.png", alt: "Swipely Like Swipe" },
-      { src: "/Swipely/skipswipe.png", alt: "Swipely Skip Swipe" },
-      { src: "/Swipely/reviewSkipped.png", alt: "Swipely Review Skipped" },
-      { src: "/Swipely/skippedDiscovery.png", alt: "Swipely Skipped Discovery" },
-      { src: "/Swipely/wishlist.png", alt: "Swipely Wishlist" },
-      { src: "/Swipely/cart.png", alt: "Swipely Cart" },
-      { src: "/Swipely/profile.png", alt: "Swipely Profile" },
-      { src: "/Swipely/catSelect.png", alt: "Swipely Category Select" },
-
     ]
   },
   {
@@ -185,22 +228,7 @@ export const projects: Project[] = [
       { src: "/Trivia/trivia.png", alt: "Trivia Screen" },
     ]
   }, 
-  {
-    id:"p15",
-    title: "Recuria",
-    slug: "Recuria",
-    shortDescription: "Recuria is a multi-tenant SaaS subscription and billing platform for B2B software products, supporting plan management, recurring invoices, and role-based access.",
-    techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Web API","Swagger API", "JWT", "Full-Stack","JWT-based API authentication",],
-    tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", "xUnit Testing", "Swagger API",],
-    status: "in_progress",
-    featured: true,
-    highlights: [],
-    repoUrl: "https://github.com/tarnaldo88/Recuria",
-    liveUrl:"#",
-    images:[
-      {src: "/RecuriaLogo.png", alt: "Recuria Logo"},
-    ],
-  },
+  
   {
     id: "p2",
     title: "Redis Server",
