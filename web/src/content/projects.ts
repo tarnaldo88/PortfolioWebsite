@@ -282,10 +282,10 @@ export const projects: Project[] = [
     liveUrl: "#",
     images: [
       { src: "/flashstudyLogo.png", alt: "flash-study logo" },
-      {src: "/flashstudy/DeckPage.png", alt: "Deck List Page"},
-      {src: "/flashstudy/StudyCardPage.png", alt: "Study Card Page"},
-      {src: "/flashstudy/EditCardPage.png", alt: "Edit Card Page"},
-      {src: "/flashstudy/studyPage.png", alt: "Study Game"},
+      {src: "/FlashStudy/DeckPage.png", alt: "Deck List Page"},
+      {src: "/FlashStudy/StudyCardPage.png", alt: "Study Card Page"},
+      {src: "/FlashStudy/EditCardPage.png", alt: "Edit Card Page"},
+      {src: "/FlashStudy/studyPage.png", alt: "Study Game"},
     ]
   },
   {
