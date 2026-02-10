@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id:"p15",
     title: "Recuria",
     slug: "Recuria",
-    shortDescription: "Recuria is a multi-tenant SaaS subscription and billing platform for B2B software products, supporting plan management, recurring invoices, and role-based access.",
+    shortDescription: "Recuria is a multi-tenant SaaS subscription and billing platform for B2B software products, supporting plan management, recurring invoices, and role-based access. Work in Progress.",
     techStack: ["C#","ASP.NET", "Blazor Web Assembly", "Entity Framework","SQL Server", "ASP.NET Core Web API","Swagger API", "JWT", "Full-Stack","JWT-based API authentication", "FluentValidation", "xUnit Testing", "Swagger API", "Serilog"],
     tags:["SaaS", "B2B", ".NET", "Blazor", "ASP.NET Core", "xUnit Testing", "Swagger API",],
     status: "in_progress",
@@ -20,6 +20,14 @@ export const projects: Project[] = [
     liveUrl:"#",
     images:[
       {src: "/RecuriaLogoWhite.png", alt: "Recuria Logo"},
+      {src: "/Recuria/Home.png", alt: "Recuria Home"},
+      {src:"/Recuria/dashboard.png", alt: "Recuria Dashboard"},
+      {src:"/Recuria/Invoice.png", alt: "Recuria Invoice"},
+      {src:"/Recuria/InvoiceDetails.png", alt: "Recuria Invoice Details"},
+      {src:"/Recuria/sub.png", alt: "Recuria Subscription"},
+      {src:"/Recuria/users.png", alt: "Recuria Users"},
+      {src:"/Recuria/set.png", alt: "Recuria Settings"},
+      {src:"/Recuria/ops.png", alt: "Recuria Ops"},
     ],
   },
   {
