@@ -3,10 +3,10 @@
 ## Summary of Skills
 
 ### Languages
-C, C++, C#, JavaScript, Java, TypeScript, Python 3, SQL, HTML, CSS
+C, C++, C#, Golang, JavaScript, Java, TypeScript, Python 3, SQL, HTML, CSS
 
 ### Software
-ReactJS, Node.js, Next.js, .NET, Unity, Visual Studio, Android Studio, Apache NetBeans, Eclipse, Joomla
+ReactJS, Node.js, Next.js, .NET, Blazor, Entity Framework, ASP.NET, PostgreSQL, Unity, Visual Studio, Android Studio, Apache NetBeans, Eclipse, Joomla
 
 ### Version Control
 GitHub, Plastic SCM, Subversion
@@ -45,11 +45,16 @@ PCBAs by refactoring Schema, increasing processing performance by 30%.
 
 ## Personal Projects
 
-### Swipely
-Developed a full stack mobile and web e-commerce application using React Native and Expo, featuring an innovative Tinder-style product discovery interface with gesture-based interactions. Implemented comprehensive shopping functionality including personalized product feeds, wishlist management, shopping cart, and user authentication using Firebase. Built a responsive, cross-platform solution that runs seamlessly on iOS, Android, and web browsers with platform specific optimizations and a comfortable layout for desktop viewing. Utilized TypeScript for type safety, React Navigation for routing, AsyncStorage for data persistence, and implemented advanced features including offline support, real-time data synchronization, category based filtering, and optimized image loading with lazy loading and caching strategies.
 
 ### Recuria
-Designed and implemented Recuria, a modular SaaS style subscription and billing platform using .NET, EF Core, and Domain aDriven Design principles. Architected a clean, multi-layered solution with explicit subscription lifecycle management, billing orchestration, and domain events to enforce invariant-safe business rules. Implemented unit-tested application services, lifecycle orchestration, and persistence patterns aligned with real-world production systems. Focused on maintainability, testability, and scalability through clear separation of concerns and explicit domain modeling.
+Built Recuria, an enterprise SaaS subscription and billing platform using ASP.NET Core, Blazor WebAssembly, C#, EF Core, SQL, MudBlazor, NSwag-generated typed API clients, and GitHub Actions CI. I  architected a layered Domain-Driven Design solution with explicit domain boundaries, application services, infrastructure adapters, and invariant-safe domain events for subscription lifecycle and billing workflows. Implemented end-to-end capabilities including authentication and role-based authorization, organization onboarding/bootstrap, subscription trial and plan management, invoice creation and detail workflows, operational admin tooling, and resilient API error handling with typed frontend service abstractions. Delivered a robust automated test suite with unit and integration coverage for domain logic, application services, API contracts, authorization behavior, and frontend service/component behavior, with maintainability and production scalability as core design goals.
+
+
+### Go Chaos
+Go Chaos is a Go 1.25.6 reverse proxy that injects controlled failures, latency, HTTP errors, disconnects, DNS failures, and upstream timeouts to validate API resilience. It supports per-route include/exclude rules, live configuration updates via an admin API, and a built-in admin UI for real-time tuning. I implemented the core proxy/transport failure logic, configuration schema, and admin endpoints, with tests to verify behavior. The result is a practical chaos engineering tool for hardening services under realistic fault conditions.
+
+### Swipely
+Developed a full stack mobile and web e-commerce application using React Native and Expo, featuring an innovative Tinder-style product discovery interface with gesture-based interactions. Implemented comprehensive shopping functionality including personalized product feeds, wishlist management, shopping cart, and user authentication using Firebase. Built a responsive, cross-platform solution that runs seamlessly on iOS, Android, and web browsers with platform specific optimizations and a comfortable layout for desktop viewing. Utilized TypeScript for type safety, React Navigation for routing, AsyncStorage for data persistence, and implemented advanced features including offline support, real-time data synchronization, category based filtering, and optimized image loading with lazy loading and caching strategies.
 
 ### ShazLite (Audio Fingerprinting Application)
 Built ShazLite, a production-ready audio fingerprinting system similar to Shazam, using a modern tech stack including Qt6/C++, FastAPI/Python, and PostgreSQL. Developed custom spectral analysis algorithms achieving 99%+ identification accuracy with sub-500ms response times, while implementing scalable architecture supporting 1000+ concurrent users. Created a comprehensive testing suite with 95%+ coverage, optimized database queries with custom indexing, and built a cross-platform desktop application with smooth QML animations. Demonstrates full-stack development expertise from low-level C++ signal processing to high-level API design and user experience.
