@@ -3,43 +3,75 @@
 ## Summary of Skills
 
 ### Languages
-C, C++, C#, Golang, JavaScript, Java, TypeScript, Python 3, SQL, HTML, CSS
+C#, Golang, JavaScript, TypeScript, Python, SQL, Java, C, C++, HTML, CSS
 
-### Software
-ReactJS, Node.js, Next.js, .NET, Blazor, Entity Framework, ASP.NET, PostgreSQL, Unity, Visual Studio, Android Studio, Apache NetBeans, Eclipse, Joomla
+### Frameworks & Libraries
+.NET, ASP.NET Core, Blazor, React, Next.js, Node.js, Entity Framework Core, Unity
 
-### Version Control
-GitHub, Plastic SCM, Subversion
+### Databases
+PostgreSQL, MySQL, SQL Server, Firebase, MongoDB
+
+### Cloud & Devops
+AWS (EC2, RDS), GitHub Actions, CI/CD
+
+### Tools & Platforms
+Git, GitHub, Subversion, Plastic SCM, Visual Studio, NSwag
 
 ## Professional Experience
 
 ### Pituitary Network Association
 **Web Development & Design**  
 *July 2022 - Current*  
-A part time position enhancing PNA’s website pituitary.org, and its satellite websites. My job responsibilities include the website’s design and refactoring, and the deployment of additional website content. I also created instruction manuals on how to interface with the website’s back-end, and more importantly, on how to understand 
-and interact with the various software modules and components.
+Maintain and enhance multiple organizational websites (pituitary.org and related properties)
+
+Refactor legacy JavaScript components and implement front-end improvements to improve usability and performance
+
+Develop and deploy new page templates, features, and content updates
+
+Create internal technical documentation for CMS workflows, backend integration points, and system structure
+
+Collaborate with stakeholders to translate business requirements into functional web solutions
  
 *Technologies: JavaScript, Adobe Photoshop, Adobe Illustrator*
 
 ### Wildlife & Environmental Conservation Education (WEC)
 **Web & Graphic Design**  
 *January 2018 - Current*  
-A sub-contractor part time position at WEC, a non-profit that provides shelter and rehabilitation to endangered & exotic animals. I developed the company’s website utilizing Joomla, CSS, and HTML. Additionally, I designed the logo, banners, flyers, calendars, web advertisements, and promotional videos used for fundraising events and social media.
+Designed and developed the organization website using Joomla, HTML, CSS, and JavaScript
+
+Implemented responsive layouts and optimized performance across desktop and mobile devices
+
+Produced digital assets for fundraising and outreach campaigns
+
+Supported ongoing site maintenance, updates, and technical improvements
   
 *Technologies: HTML, CSS, JavaScript, Adobe Illustrator, Adobe Photoshop*
 
 ### Havik
 **Software Engineer**  
 *February 2022 - July 2022*  
-Short term contract with Havik, a company that develops VR military simulation software. Delivered redesign and refactor of the UI/UX for Havik’s virtual reality military simulation, Joint Fires, built with the Unity Engine. This included implementing a new user profile system, which included the user’s AJACTS training status. I also implemented a post-simulation session review feature for the instructor and student, as well as creating all visual elements and UI layouts. These features were implemented using the MVC design pattern. Implemented a new UI layout and features for the Havik Voice application. These features include creating a dynamic visual waveform that displays when any user speaks. Other frontend features implemented include those commonly found in voice chat applications, such as, mute/unmute, volume control, channel selection, and connect/disconnect.
+Redesigned and modernized UI/UX for a Unity-based VR military training platform
+
+Implemented user profile management and training status tracking (AJACTS integration)
+
+Developed post-session review tools for instructors and trainees
+
+Built real-time voice activity visualization and communication controls
+
+Applied MVC architecture to improve modularity and maintainability
  
 *Technologies: Unity, C#, Plastic SCM, Mixed Reality SDK, .NET, Visual Studio*
 
 ### Aerovironment
 **Software Engineer**  
 *June 2021 - February 2022*  
-Aerovironment provides specialized drones for commercial and military application. I completed multiple development projects using C#, ReactJs, React Redux, XML, and VBA. I developed automated data collection of drone performance from Ground Control System for evaluation against Acceptance Test Procedures for Flight Test Engineers. I developed RF Radio Channel Selector to manage channel selection and utilization across multiple teams to allocate certain channels for the purpose of development and testing of military air vehicles. I refactored underperforming application used to evaluate hardware components such as Gimbals and Air vehicles 
-PCBAs by refactoring Schema, increasing processing performance by 30%.
+Designed and delivered end-to-end automated data collection and analysis tools to capture drone performance from Ground Control Systems and validate results against Acceptance Test Procedures (ATP)
+
+Developed an RF channel allocation system to coordinate spectrum usage across engineering teams
+
+Refactored hardware evaluation database schema and processing workflows, improving performance by 30%
+
+Contributed to internal full-stack engineering tools using React and .NET Framework
   
 *Technologies: ReactJS, .NET Framework, C#, XML, Subversion*
 
@@ -47,26 +79,62 @@ PCBAs by refactoring Schema, increasing processing performance by 30%.
 
 
 ### Recuria
-Built Recuria, an enterprise SaaS subscription and billing platform using ASP.NET Core, Blazor WebAssembly, C#, EF Core, SQL, MudBlazor, NSwag-generated typed API clients, and GitHub Actions CI. I  architected a layered Domain-Driven Design solution with explicit domain boundaries, application services, infrastructure adapters, and invariant-safe domain events for subscription lifecycle and billing workflows. Implemented end-to-end capabilities including authentication and role-based authorization, organization onboarding/bootstrap, subscription trial and plan management, invoice creation and detail workflows, operational admin tooling, and resilient API error handling with typed frontend service abstractions. Delivered a robust automated test suite with unit and integration coverage for domain logic, application services, API contracts, authorization behavior, and frontend service/component behavior, with maintainability and production scalability as core design goals.
+Built a full-stack SaaS application using ASP.NET Core, Blazor WebAssembly, EF Core, and PostgreSQL
+
+Designed a layered Domain-Driven Design architecture with clear domain, application, and infrastructure boundaries
+
+Implemented authentication, role-based authorization, subscription lifecycle management, and invoice workflows
+
+Developed REST APIs with typed client generation using NSwag
+
+Created unit and integration tests across domain and application layers
+
+Configured CI pipelines with GitHub Actions
+*Technologies: C#, ASP.NET Core, Blazor, PostgreSQL, MudBlazor*
 
 
 ### Go Chaos
-Go Chaos is a Go 1.25.6 reverse proxy that injects controlled failures, latency, HTTP errors, disconnects, DNS failures, and upstream timeouts to validate API resilience. It supports per-route include/exclude rules, live configuration updates via an admin API, and a built-in admin UI for real-time tuning. I implemented the core proxy/transport failure logic, configuration schema, and admin endpoints, with tests to verify behavior. The result is a practical chaos engineering tool for hardening services under realistic fault conditions.
+Built a configurable reverse proxy in Go to simulate real-world failure conditions
+
+Implemented latency injection, HTTP errors, connection drops, and timeout simulation
+
+Created a configuration API and web-based admin interface for live tuning
+
+Added automated tests to validate failure behavior
+ *Technologies: Go, REST, HTTP*
+
 
 ### Swipely
-Developed a full stack mobile and web e-commerce application using React Native and Expo, featuring an innovative Tinder-style product discovery interface with gesture-based interactions. Implemented comprehensive shopping functionality including personalized product feeds, wishlist management, shopping cart, and user authentication using Firebase. Built a responsive, cross-platform solution that runs seamlessly on iOS, Android, and web browsers with platform specific optimizations and a comfortable layout for desktop viewing. Utilized TypeScript for type safety, React Navigation for routing, AsyncStorage for data persistence, and implemented advanced features including offline support, real-time data synchronization, category based filtering, and optimized image loading with lazy loading and caching strategies.
+Developed a cross-platform e-commerce application using React Native and TypeScript
+
+Implemented gesture-based product discovery, authentication, cart, and wishlist features
+
+Integrated Firebase for backend services and real-time data synchronization
+
+Added offline support and optimized performance with lazy loading and caching
+ *Technologies: React Native, TypeScript, Firebase*
+
 
 ### ShazLite (Audio Fingerprinting Application)
-Built ShazLite, a production-ready audio fingerprinting system similar to Shazam, using a modern tech stack including Qt6/C++, FastAPI/Python, and PostgreSQL. Developed custom spectral analysis algorithms achieving 99%+ identification accuracy with sub-500ms response times, while implementing scalable architecture supporting 1000+ concurrent users. Created a comprehensive testing suite with 95%+ coverage, optimized database queries with custom indexing, and built a cross-platform desktop application with smooth QML animations. Demonstrates full-stack development expertise from low-level C++ signal processing to high-level API design and user experience.
+Developed a full-stack audio fingerprinting system using C++, FastAPI, and PostgreSQL
+
+Achieved 99%+ identification accuracy with sub-500ms response time
+
+Designed a scalable backend supporting 1,000+ concurrent users
+
+Optimized database performance through indexing strategies
+
+*Technologies: C++, FastAPI, PostgreSQL*
 
 
 ### Redis Server Database and Client
 Developed a Redis-like in-memory data store in modern C++ (C++17), featuring RESP protocol support for compatibility with redis-cli. Implemented core data structures (strings, lists, hashes) with thread-safe operations and periodic background persistence to a dump file. Designed a multithreaded TCP server supporting concurrent client connections and graceful shutdown with final state saving. Built a cross-platform Redis client capable of connecting to a Redis server over TCP, constructing RESP commands, and parsing server responses. Implemented portable socket handling for Windows (Winsock2) and Linux (POSIX), with a CLI scaffold ready for interactive command execution. This project demonstrates utilization of systems programming, networking, multithreading, and protocol design skills.
+*Technologies: C++, RESP, Redis, TCP, Winsock2, POSIX*
 
 
 ### Unix Shell in C
 Developed a custom Unix-like shell in C with an interactive prompt, command parsing, and built-in commands (cd, pwd, echo, env, which, exit). Implemented input handling via getline(), tokenization with dynamic memory management, and clean resource deallocation each iteration. Added external command execution using PATH lookup to run common system utilities. Enhanced usability with error messages for invalid commands and improved built-in behavior. This project demonstrates utilization in low-level C programming, process control, and memory management.
-
+*Technologies: C, Unix Shell, Winsock2, POSIX*
 
 ### Torres Shark (Network Packet Sniffer)
 Developed a Windows-focused network packet sniffer with a Tkinter-based GUI for capturing and inspecting IPv4 traffic. Implemented raw socket capture with promiscuous mode, decoding of ICMP, TCP, and UDP protocols, and a thread-safe queue for smooth real-time packet updates in the UI. Designed a color-coded, filterable table for packet summaries and a details pane with parsed headers and payload previews. Added start/stop controls, error reporting, and one-click clearing to create a user-friendly experience. The project emphasizes network protocol parsing, concurrent programming, and GUI development in Python. Future iterations can extend functionality to IPv6 and Pcap export support.
@@ -89,13 +157,27 @@ Ready for Life is a React Native mobile application designed to help users set g
 
 ### California State University, Northridge
 **Bachelor of Science - Computer Science**  
-*2021*
 
 ### Moorpark College
 **Associate of Science**  
-*Mathematics, Physics, Graphic Design, Astrophysics, Astronomy*  
-*2019*
+*Mathematics* 
+
+### Moorpark College
+**Associate of Science**  
+*Physics*
+
+### Moorpark College
+**Associate of Science**  
+*Graphic Design*
+
+### Moorpark College
+**Associate of Science**  
+*Astrophysics*
+
+### Moorpark College
+**Associate of Science**  
+*Astronomy*
 
 ## Awards
-- Multicultural Day Graphic Design Award (2015)
-- Graphic Design Scholarship Award (2015-2016)
+- Multicultural Day Graphic Design Award
+- Graphic Design Scholarship Award
