@@ -219,25 +219,6 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: "p14",
-    title: "Torres Trivia",
-    slug: "torres-trivia",
-    shortDescription: "",
-    techStack: ["React Native", "TypeScript", "SQLite", "Orientation Detection", ],
-    tags: ["React Native", "TypeScript", "SQLite", "Orientation Detection",],
-    status: "in_progress",
-    featured: false,
-    repoUrl: "https://github.com/tarnaldo88/TorresTrivia",
-    liveUrl: "#",
-    images: [
-      { src: "/Trivia/TorresTrivia.png", alt: "Torres Trivia icon" },
-      { src: "/Trivia/triviaHomescreen.png", alt: "Torres Trivia home screen" },
-      { src: "/Trivia/headsup.png", alt: "heads up screen" },
-      { src: "/Trivia/trivia.png", alt: "Trivia Screen" },
-    ]
-  }, 
-  
-  {
     id: "p2",
     title: "Redis Server",
     slug: "redis-server",
@@ -325,6 +306,39 @@ export const projects: Project[] = [
     liveUrl: "#",
     images: [
       { src: "/AbstractSwitch.png", alt: "the abstract switch icon" },
+    ]
+  }, 
+  {
+    id:"p18",
+    title: "Multi Choice",
+    slug: "multi-choice-quiz-app",
+    shortDescription: "Multi-Choice is an Android app built with Kotlin and Jetpack Compose for creating and studying multiple choice questions by section. It is designed for interview prep and topic based study with offline support.",
+    techStack: ["Kotlin", "Jetpack Compose", "SQLite"],
+    tags: ["Kotlin", "Jetpack Compose", "SQLite"],
+    status: "in_progress",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/Multi-Choice",
+    liveUrl: "",
+    images: [
+      { src: "/multichoice.png", alt: "Multi Choice icon" },
+    ]
+  },
+  {
+    id: "p14",
+    title: "Torres Trivia",
+    slug: "torres-trivia",
+    shortDescription: "",
+    techStack: ["React Native", "TypeScript", "SQLite", "Orientation Detection", ],
+    tags: ["React Native", "TypeScript", "SQLite", "Orientation Detection",],
+    status: "in_progress",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/TorresTrivia",
+    liveUrl: "#",
+    images: [
+      { src: "/Trivia/TorresTrivia.png", alt: "Torres Trivia icon" },
+      { src: "/Trivia/triviaHomescreen.png", alt: "Torres Trivia home screen" },
+      { src: "/Trivia/headsup.png", alt: "heads up screen" },
+      { src: "/Trivia/trivia.png", alt: "Trivia Screen" },
     ]
   }, 
   {
