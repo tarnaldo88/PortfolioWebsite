@@ -178,7 +178,7 @@ export const projects: Project[] = [
       {src:"GCS/homenotc.png", alt:"Ground Control System Home (Not Connected)"},
       {src:"GCS/camera.png", alt:"Ground Control System Drone Camera Feed"},
       {src:"GCS/missionplannerwp.png", alt:"Ground Control System Mission Planner Waypoints"},
-      {src:"GCS/gpstrack.png", alt:"Ground Control System GPS Track"},
+      {src:"GCS/gps.png", alt:"Ground Control System GPS Track"},
       {src:"GCS/logs.png", alt:"Ground Control System Logs"},
       {src:"GCS/stats.png", alt:"Ground Control System Statistics"},
       {src:"GCS/replay.png", alt:"Ground Control System MissionReplay"},
