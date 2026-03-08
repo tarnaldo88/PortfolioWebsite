@@ -180,6 +180,7 @@ export const projects: Project[] = [
       {src:"GCS/missionplannerwp.png", alt:"Ground Control System Mission Planner Waypoints"},
       {src:"GCS/gpstrack.png", alt:"Ground Control System GPS Track"},
       {src:"GCS/logs.png", alt:"Ground Control System Logs"},
+      {src:"GCS/stats.png", alt:"Ground Control System Statistics"},
       {src:"GCS/settings.png", alt:"Ground Control System Settings"},
       {src:"GCS/nvhome.png", alt:"Ground Control System Night vision home"},
     ]
