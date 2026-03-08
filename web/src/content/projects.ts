@@ -154,13 +154,21 @@ export const projects: Project[] = [
       },
     ]
   },
+//   Language: Kotlin
+// UI Framework: Jetpack Compose with Material Design 3
+// Navigation: Jetpack Navigation Compose
+// Camera: CameraX (Core, Camera2, Lifecycle, View)
+// Maps: osmdroid-android
+// Concurrency: Kotlin Coroutines and Flow
+// Architecture: MVVM (Model-View-ViewModel)
+// Testing: JUnit 4, Mockito, Espresso, Compose UI Testing
   {
     id: "p19",
     title: "Ground Control System",
     slug: "ground-control-system",
     shortDescription: "A professional Android application designed for the command, control, and monitoring of unmanned aerial vehicles. This system integrates real-time telemetry, mission planning, and data analysis tools into a unified Jetpack Compose interface.",
-    techStack: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite"],
-    tags: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite"],
+    techStack: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite", "CameraX", "osmdroid-android", "Kotlin Coroutines", "MVVM", "JUnit", "Mockito", "Espresso", "Compose UI Testing"],
+    tags: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite", "CameraX", "osmdroid-android", "Kotlin Coroutines", "MVVM", "JUnit", "Mockito", "Espresso", "Compose UI Testing"],
     status: "in_progress",
     featured: false,
     repoUrl: "https://github.com/tarnaldo88/GroundControlSystem",
