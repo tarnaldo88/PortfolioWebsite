@@ -166,7 +166,7 @@ export const projects: Project[] = [
     id: "p19",
     title: "Ground Control System",
     slug: "ground-control-system",
-    shortDescription: "A professional Android application designed for the command, control, and monitoring of unmanned aerial vehicles. This system integrates real-time telemetry, mission planning, and data analysis tools into a unified Jetpack Compose interface.",
+    shortDescription: "An Android application designed for the command, control, and monitoring of unmanned aerial vehicles. This system integrates real-time telemetry, mission planning, and data analysis tools into a unified Jetpack Compose interface.",
     techStack: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite", "CameraX", "osmdroid-android", "Kotlin Coroutines", "MVVM", "JUnit", "Mockito", "Espresso", "Compose UI Testing"],
     tags: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite", "CameraX", "osmdroid-android", "Kotlin Coroutines", "MVVM", "JUnit", "Mockito", "Espresso", "Compose UI Testing"],
     status: "in_progress",
