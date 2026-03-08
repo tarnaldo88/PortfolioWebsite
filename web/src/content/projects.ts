@@ -155,6 +155,21 @@ export const projects: Project[] = [
     ]
   },
   {
+    id: "p19",
+    title: "Ground Control System",
+    slug: "ground-control-system",
+    shortDescription: "A professional Android application designed for the command, control, and monitoring of unmanned aerial vehicles. This system integrates real-time telemetry, mission planning, and data analysis tools into a unified Jetpack Compose interface.",
+    techStack: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite"],
+    tags: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite"],
+    status: "in_progress",
+    featured: false,
+    repoUrl: "https://github.com/tarnaldo88/GroundControlSystem",
+    liveUrl: "",
+    images: [
+      { src: "", alt: "" },
+    ]
+  },
+  {
     id: "p10",
     title: "ShazLite",
     slug: "shaz-lite",
