@@ -170,11 +170,18 @@ export const projects: Project[] = [
     techStack: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite", "CameraX", "osmdroid-android", "Kotlin Coroutines", "MVVM", "JUnit", "Mockito", "Espresso", "Compose UI Testing"],
     tags: ["Kotlin", "Jetpack Compose", "MQTT", "SQLite", "CameraX", "osmdroid-android", "Kotlin Coroutines", "MVVM", "JUnit", "Mockito", "Espresso", "Compose UI Testing"],
     status: "in_progress",
-    featured: false,
+    featured: true,
     repoUrl: "https://github.com/tarnaldo88/GroundControlSystem",
     liveUrl: "",
     images: [
-      { src: "", alt: "" },
+      { src: "GCS/homec.png", alt: "Ground Control System Home" },
+      {src:"GCS/homenotc.png", alt:"Ground Control System Home (Not Connected)"},
+      {src:"GCS/camera.png", alt:"Ground Control System Drone Camera Feed"},
+      {src:"GCS/missionplannerwp.png", alt:"Ground Control System Mission Planner Waypoints"},
+      {src:"GCS/gpstrack.png", alt:"Ground Control System GPS Track"},
+      {src:"GCS/logs.png", alt:"Ground Control System Logs"},
+      {src:"GCS/settings.png", alt:"Ground Control System Settings"},
+      {src:"GCS/nvhome.png", alt:"Ground Control System Night vision home"},
     ]
   },
   {
